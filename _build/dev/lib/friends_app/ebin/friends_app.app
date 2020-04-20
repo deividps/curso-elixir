@@ -3,8 +3,8 @@
               {description,"friends_app"},
               {modules,['Elixir.FriendsApp','Elixir.FriendsApp.CLI.Main',
                         'Elixir.FriendsApp.CLI.Menu',
-                        'Elixir.FriendsApp.CLI.MenuChoice',
-                        'Elixir.FriendsApp.CLI.MenuItens',
+                        'Elixir.FriendsApp.CLI.Menu.Choice',
+                        'Elixir.FriendsApp.CLI.Menu.Itens',
                         'Elixir.Mix.Tasks.Start']},
               {registered,[]},
               {vsn,"0.1.0"}]}.

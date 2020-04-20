@@ -1,12 +1,12 @@
-defmodule FriendsApp.CLI.MenuChoice do
+defmodule FriendsApp.CLI.Menu.Choice do
   alias Mix.Shell.IO, as: Shell
-  alias FriendsApp.CLI.MenuItens
+  alias FriendsApp.CLI.Menu.Itens
 
   def start do
     Shell.cmd("cls")
     Shell.info("Escolha uma opcao:")
 
-    menu_itens = FriendsApp.CLI.MenuItens.all()
+    menu_itens = FriendsApp.CLI.Menu.Itens.all()
     find_menu_item_by_index = &Enum.at(menu_itens, &1, :error)
 
     menu_itens
